@@ -8,6 +8,29 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New','Vazirmatn','FSAlbertArabic-Light','FSAlbertArabic-Regular','FSAlbertArabic-Thin','FSAlbertArabic-Bold','FSAlbertArabic-ExtraBold',
+    monospace,sans-serif;
+}
+
+@font-face {
+  font-family: 'FSAlbertArabic-Light';
+  src: local('FSAlbertArabic-Light'), url(./Assets/Fonts/FSAlbertArabic-Light.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: 'FSAlbertArabic-Regular';
+  src: local('FSAlbertArabic-Regular'), url(./Assets/Fonts/FSAlbertArabic-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'FSAlbertArabic-Thin';
+  src: local('FSAlbertArabic-Thin'), url(./Assets/Fonts/FSAlbertArabic-Thin.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'FSAlbertArabic-Bold';
+  src: local('FSAlbertArabic-Bold'), url(./Assets/Fonts/FSAlbertArabic-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'FSAlbertArabic-ExtraBold';
+  src: local('FSAlbertArabic-ExtraBold'), url(./Assets/Fonts/FSAlbertArabic-ExtraBold.ttf) format('truetype');
 }
